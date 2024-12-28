@@ -34,7 +34,7 @@ func Insert(w http.ResponseWriter, r *http.Request) {
 			log.Println("Erro na conversão do preço:", err)
 		}
 		
-		quatidadeConvertidaParaInt, err := strconv.Atoi(quantidade)
+		quantidadeConvertidaParaInt, err := strconv.Atoi(quantidade)
 		if err != nil {
 			log.Println("Erro na conversão da quantidade:", err)
 		}
