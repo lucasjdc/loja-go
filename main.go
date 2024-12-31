@@ -9,5 +9,5 @@ import (
 func main() {
 	routes.CarregaRotas()	
 	log.Println("Servidor iniciado...")
-	log.Fatal(http.ListenAndServe(":8080", nil))		
+	log.Fatal(http.ListenAndServe(":8080", nil))	
 }
